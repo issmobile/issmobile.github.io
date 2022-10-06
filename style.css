@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(173, 235, 235);
+}
+
+.picture {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.picture-item {
+    width: 50%;
+    padding: 4px;
+    box-shadow: 10px 10px 25px 3px rgb(217, 169, 169);
+}
